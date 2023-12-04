@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>WeatherHere</title>
+</head>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <h1>WeatherHere</h1>
+            <label for="location">Enter location:</label>
+            <input type="text" id="location" placeholder="City, Country">
+            <button onclick="getWeather()">Get Weather</button>
+        </div>
+        <div class="response-section">
+            <video autoplay muted loop id="bgVideo">
+                <source src="https://vod-progressive.akamaized.net/exp=1701696688~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F1543%2F18%2F457717262%2F2021036812.mp4~hmac=65735e194ce2cbe116156c453ee3e42ab302cd8277438a603ac40ab007bdb1d3/vimeo-prod-skyfire-std-us/01/1543/18/457717262/2021036812.mp4?filename=file.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <!-- Initially display a welcome message -->
+            <div id="weather-info"><h2>Welcome to WeatherHere!</h2>
+                <p>Get to know the weather report for you location here.</p></div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
