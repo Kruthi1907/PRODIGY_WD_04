@@ -11,7 +11,7 @@ body {
 
 .input-section {
     flex: 1;
-    background-color: #ecf0f1; /* Light background color */
+    background-color: #ecf0f1;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -42,7 +42,7 @@ body {
 }
 
 .response-section h2 {
-    font-size: 3em; /* Adjust the font size as needed */
+    font-size: 3em;
 }
 
 p {
@@ -57,7 +57,7 @@ h1 {
 label {
     display: block;
     margin-bottom: 10px;
-    color: #2c3e50; /* Dark text color */
+    color: #2c3e50;
 }
 
 input, button {
@@ -67,17 +67,17 @@ input, button {
 
 button {
     cursor: pointer;
-    background-color: #3498db; /* Blue color */
+    background-color: #3498db;
     color: #fff;
     border: none;
 }
 
 button:hover {
-    background-color: #2980b9; /* Darker blue on hover */
+    background-color: #2980b9;
 }
 
 input::placeholder {
-    color: #95a5a6; /* Light text color */
+    color: #95a5a6;
 }
 
 input {
@@ -85,7 +85,6 @@ input {
     box-sizing: border-box;
 }
 
-/* Responsive styles */
 @media (max-width: 600px) {
     .container {
         flex-direction: column;

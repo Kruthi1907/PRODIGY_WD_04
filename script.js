@@ -18,8 +18,6 @@ function getWeather() {
 
 function displayWeather(data) {
     const weatherContainer = document.getElementById('weather-info');
-
-    // Create elements for weather information
     const weatherInfo = document.createElement('div');
     weatherInfo.innerHTML = `
         <h2>Current Weather in ${data.name}, ${data.sys.country}</h2>
